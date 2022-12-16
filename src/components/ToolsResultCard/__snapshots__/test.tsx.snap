@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultCard /> should render the heading 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 3.2rem 2.4rem;
+  border: 1px solid #F4F4F4;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px #1932413F;
+}
+
+.c0 .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c3 {
+  color: #193241;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.c4 {
+  font-size: 2.0rem;
+  font-weight: 900;
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <h4
+      class="c3"
+    >
+      ToolsResultCard
+    </h4>
+    <data
+      class="c4"
+    >
+      R$ 30.999,13
+    </data>
+  </div>
+</article>
+`;

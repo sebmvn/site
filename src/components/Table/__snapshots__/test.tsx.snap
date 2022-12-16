@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render the table 1`] = `
+.c2 {
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  color: rgba(0,0,0,0.87);
+  background-color: #FFFFFF;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: rgba(0,0,0,0.87);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  background-color: #FFFFFF;
+  min-height: 52px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.12);
+  border-bottom-style: solid;
+}
+
+.c5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: normal;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.c11 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: normal;
+  padding-left: 16px;
+  padding-right: 16px;
+  word-break: break-word;
+}
+
+.c6 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  max-width: 100%;
+  min-width: 100px;
+}
+
+.c12 div:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.87);
+  background-color: #FFFFFF;
+  min-height: 48px;
+}
+
+.c10:not(:last-of-type) {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.12);
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: inherit;
+  -webkit-justify-content: inherit;
+  -ms-flex-pack: inherit;
+  justify-content: inherit;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.c8 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  border-radius: inherit;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 0;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  display: table;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 rdt_Table"
+      role="table"
+    >
+      <div
+        class="c3 rdt_TableHead"
+        role="rowgroup"
+      >
+        <div
+          class="c4 rdt_TableHeadRow"
+          role="row"
+        >
+          <div
+            class="c5 c6 rdt_TableCol"
+            data-column-id="1"
+          >
+            <div
+              class="c7 rdt_TableCol_Sortable"
+              data-column-id="1"
+              data-sort-id="1"
+              disabled=""
+              role="columnheader"
+              tabindex="0"
+            >
+              <div
+                class="c8"
+                data-column-id="1"
+              >
+                Mês
+              </div>
+            </div>
+          </div>
+          <div
+            class="c5 c6 rdt_TableCol"
+            data-column-id="2"
+          >
+            <div
+              class="c7 rdt_TableCol_Sortable"
+              data-column-id="2"
+              data-sort-id="2"
+              disabled=""
+              role="columnheader"
+              tabindex="0"
+            >
+              <div
+                class="c8"
+                data-column-id="2"
+              >
+                Juros
+              </div>
+            </div>
+          </div>
+          <div
+            class="c5 c6 rdt_TableCol"
+            data-column-id="3"
+          >
+            <div
+              class="c7 rdt_TableCol_Sortable"
+              data-column-id="3"
+              data-sort-id="3"
+              disabled=""
+              role="columnheader"
+              tabindex="0"
+            >
+              <div
+                class="c8"
+                data-column-id="3"
+              >
+                Total Investido
+              </div>
+            </div>
+          </div>
+          <div
+            class="c5 c6 rdt_TableCol"
+            data-column-id="4"
+          >
+            <div
+              class="c7 rdt_TableCol_Sortable"
+              data-column-id="4"
+              data-sort-id="4"
+              disabled=""
+              role="columnheader"
+              tabindex="0"
+            >
+              <div
+                class="c8"
+                data-column-id="4"
+              >
+                Total Juros
+              </div>
+            </div>
+          </div>
+          <div
+            class="c5 c6 rdt_TableCol"
+            data-column-id="5"
+          >
+            <div
+              class="c7 rdt_TableCol_Sortable"
+              data-column-id="5"
+              data-sort-id="5"
+              disabled=""
+              role="columnheader"
+              tabindex="0"
+            >
+              <div
+                class="c8"
+                data-column-id="5"
+              >
+                Total Acumulado
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c9 rdt_TableBody"
+        role="rowgroup"
+      >
+        <div
+          class="c10 rdt_TableRow"
+          id="row-0"
+          role="row"
+        >
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="1"
+            data-tag="allowRowEvents"
+            id="cell-1-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="2"
+            data-tag="allowRowEvents"
+            id="cell-2-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              --
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="3"
+            data-tag="allowRowEvents"
+            id="cell-3-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              5.000,0
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="4"
+            data-tag="allowRowEvents"
+            id="cell-4-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              0,00
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="5"
+            data-tag="allowRowEvents"
+            id="cell-5-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              5.000,00
+            </div>
+          </div>
+        </div>
+        <div
+          class="c10 rdt_TableRow"
+          id="row-1"
+          role="row"
+        >
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="1"
+            data-tag="allowRowEvents"
+            id="cell-1-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              1
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="2"
+            data-tag="allowRowEvents"
+            id="cell-2-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              50,00
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="3"
+            data-tag="allowRowEvents"
+            id="cell-3-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              7.000,0
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="4"
+            data-tag="allowRowEvents"
+            id="cell-4-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              50,00
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="5"
+            data-tag="allowRowEvents"
+            id="cell-5-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              7.050,00
+            </div>
+          </div>
+        </div>
+        <div
+          class="c10 rdt_TableRow"
+          id="row-2"
+          role="row"
+        >
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="1"
+            data-tag="allowRowEvents"
+            id="cell-1-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              2
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="2"
+            data-tag="allowRowEvents"
+            id="cell-2-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              70,50
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="3"
+            data-tag="allowRowEvents"
+            id="cell-3-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              9.000,0
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="4"
+            data-tag="allowRowEvents"
+            id="cell-4-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              120,50
+            </div>
+          </div>
+          <div
+            class="c11 c6 c12 rdt_TableCell"
+            data-column-id="5"
+            data-tag="allowRowEvents"
+            id="cell-5-undefined"
+            role="cell"
+          >
+            <div
+              data-tag="allowRowEvents"
+            >
+              9.120,50
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

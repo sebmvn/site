@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  padding: 2.4rem 0;
+  color: #193241;
+  border-radius: 0.5rem;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto 2.4rem;
+  border: 2px solid #193241;
+  border-radius: 0.5rem;
+}
+
+.c2 {
+  width: 50%;
+  padding: 1.6rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.c2:first-child() {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.c2:last-child() {
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.c2:hover {
+  background: #193241;
+  color: #FFFFFF;
+}
+
+.c2.active {
+  background: #0ADC7D;
+  color: #193241;
+}
+
+<main
+  class="c0"
+>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2 active"
+    >
+      Tab Component 1
+    </li>
+    <li
+      class="c2"
+    >
+      Tab Component 2
+    </li>
+    <li
+      class="c2"
+    >
+      Tab Component 3
+    </li>
+  </ul>
+  <div
+    class=""
+  >
+    <span>
+      Component 1
+    </span>
+  </div>
+</main>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToolsShowResults /> should render the heading 1`] = `
+.c3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
+  grid-gap: 3.2rem;
+  margin: 3.2rem 0;
+}
+
+.c1 {
+  color: #193241;
+  font-size: 1.8rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 3.2rem 2.4rem;
+  border: 1px solid #F4F4F4;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px #1932413F;
+}
+
+.c5 .c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c8 {
+  color: #193241;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.c10 {
+  font-size: 2.0rem;
+  font-weight: 900;
+}
+
+.c0 .c2 .c4:nth-child(3n+1) .c9 {
+  color: #8696A0;
+}
+
+.c0 .c2 .c4:nth-child(3n+2) .c9 {
+  color: #6E82FA;
+}
+
+.c0 .c2 .c4:nth-child(3n+3) .c9 {
+  color: #0ADC7D;
+}
+
+.c0 .c2 {
+  grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
+}
+
+@media (max-width:768px) {
+  .c1 {
+    font-size: 1.8rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h2
+    class="c1"
+    color="primary"
+  >
+    ToolsShowResults
+  </h2>
+  <div
+    class="c2 c3"
+  >
+    <article
+      class="c4 c5"
+    >
+      <div
+        class="c6 c7"
+      >
+        <h4
+          class="c8"
+        >
+          Valor total final
+        </h4>
+        <data
+          class="c9 c10"
+        >
+          R$ 58.877,75
+        </data>
+      </div>
+    </article>
+    <article
+      class="c4 c5"
+    >
+      <div
+        class="c6 c7"
+      >
+        <h4
+          class="c8"
+        >
+          Valor total investido
+        </h4>
+        <data
+          class="c9 c10"
+        >
+          R$ 52.400,00
+        </data>
+      </div>
+    </article>
+    <article
+      class="c4 c5"
+    >
+      <div
+        class="c6 c7"
+      >
+        <h4
+          class="c8"
+        >
+          Total em juros
+        </h4>
+        <data
+          class="c9 c10"
+        >
+          R$ 6.477,75
+        </data>
+      </div>
+    </article>
+  </div>
+</div>
+`;
