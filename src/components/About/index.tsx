@@ -15,7 +15,7 @@ const About = () => (
     </S.Description>
     <S.BoxImage>
       <Image
-        src="/img/icon-512.png"
+        src="/img/bandeira-512.png"
         alt="Mapa Deus cristo caridade"
         width={440}
         height={440}
