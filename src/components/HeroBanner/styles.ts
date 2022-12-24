@@ -4,6 +4,7 @@ import media from 'styled-media-query'
 export const Wrapper = styled.main`
   background: url('/img/constellation.png');
   background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-around;
