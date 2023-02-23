@@ -83,7 +83,13 @@ const Menu = ({ username }: MenuProps) => {
             {!username && (
               <MediaMatch lessThan="medium">
                 <S.MenuContactBox>
-                  <Button fullWidth size="large">
+                  <Button
+                    fullWidth
+                    size="large"
+                    as="a"
+                    href="https://api.whatsapp.com/send?phone=5553981118888"
+                    target="_blank"
+                  >
                     Fale Conosco
                   </Button>
                 </S.MenuContactBox>

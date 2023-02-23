@@ -13,7 +13,13 @@ const HeroBanner = () => (
       <br />
       Fora da caridade não há salvação!
     </S.Description>
-    <Button>Entre em contato</Button>
+    <Button
+      as="a"
+      href="https://api.whatsapp.com/send?phone=5553981118888"
+      target="_blank"
+    >
+      Entre em contato
+    </Button>
   </S.Wrapper>
 )
 

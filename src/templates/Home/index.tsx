@@ -67,13 +67,15 @@ const Home = ({ banners }: HomeTemplateProps) => {
               altImage="Imagem Infância e juventude"
               content={
                 <S.CardContent>
-                  O Departamento de Infância e Juventude (DIJ) cuida do{' '}
-                  <span>
-                    estudo da Doutrina Espírita destinado à crianças e jovens
-                  </span>
-                  , procurando-se adequar os ensinamentos doutrinários às
-                  respectivas faixas etárias, bem como às individualidades.
-                  Compõe o DIJ 3 grupos assim organizados:
+                  <p>
+                    O Departamento de Infância e Juventude (DIJ) cuida do{' '}
+                    <span>
+                      estudo da Doutrina Espírita destinado à crianças e jovens
+                    </span>
+                    , procurando-se adequar os ensinamentos doutrinários às
+                    respectivas faixas etárias, bem como às individualidades.
+                    Compõe o DIJ 3 grupos assim organizados:
+                  </p>
                   <ul>
                     <li>Pré-Dij – 5 a 7 anos</li>
                     <li>Infantil – 8 a 12 anos</li>

@@ -52,7 +52,7 @@ export const BoxImage = styled.div`
   `}
 `
 
-export const Content = styled.p`
+export const Content = styled.div`
   ${({ theme }) => css`
     margin-bottom: ${theme.spacings.xsmall};
   `}
