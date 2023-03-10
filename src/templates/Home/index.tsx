@@ -6,6 +6,7 @@ import HeroBanner from 'components/HeroBanner'
 import About from 'components/About'
 import CardAtivity from 'components/CardAtivity'
 import Books from 'components/Books'
+import FixedButtonOnBottom from 'components/FixedButtonOnBottom'
 
 export type HomeTemplateProps = {
   banners: BannerProps[]
@@ -15,6 +16,7 @@ const Home = ({ banners }: HomeTemplateProps) => {
   return (
     <Base>
       <Container>
+        <FixedButtonOnBottom />
         <S.SectionBanner id="sobre">
           <HeroBanner />
           <About />

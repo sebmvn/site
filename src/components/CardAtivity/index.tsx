@@ -28,7 +28,7 @@ const CardAtivity = ({
         calendar.map((ativity) => {
           return (
             <>
-              <S.BoxCalendar key={ativity.day}>
+              <S.BoxCalendar key={ativity.day + ativity.hour}>
                 <Calendar width={30} />
                 {ativity.day} às {ativity.hour}
               </S.BoxCalendar>
