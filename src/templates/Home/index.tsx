@@ -77,7 +77,7 @@ const Home = ({ banners }: HomeTemplateProps) => {
                     Compõe o DIJ 3 grupos assim organizados:
                   </p>
                   <ul>
-                    <li>Pré-Dij – 5 a 7 anos</li>
+                    <li>Pré-Dij – 4 a 7 anos</li>
                     <li>Infantil – 8 a 12 anos</li>
                     <li>Juvenil – 13 a 17 anos</li>
                   </ul>
