@@ -1,18 +1,20 @@
 import { Container } from 'components/Container'
 import Base from 'templates/Base'
 import * as S from './styles'
-import { BannerProps } from 'components/Banner'
+// import { BannerProps } from 'components/Banner'
 import HeroBanner from 'components/HeroBanner'
 import About from 'components/About'
 import CardAtivity from 'components/CardAtivity'
 import Books from 'components/Books'
 import FixedButtonOnBottom from 'components/FixedButtonOnBottom'
+import BannerSlider from 'components/BannerSlider'
 
-export type HomeTemplateProps = {
-  banners: BannerProps[]
-}
+// export type HomeTemplateProps = {
+//   banners: BannerProps[]
+// }
 
-const Home = ({ banners }: HomeTemplateProps) => {
+// const Home = ({ banners }: HomeTemplateProps) => {
+const Home = () => {
   return (
     <Base>
       <Container>
