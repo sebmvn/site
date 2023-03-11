@@ -107,6 +107,7 @@ export const MenuLink = styled.a`
     color: ${theme.colors.menuText};
     font-size: ${theme.font.sizes.medium};
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
       &::after {
